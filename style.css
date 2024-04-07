@@ -1,0 +1,117 @@
+/* Color and fonts */
+body {
+	background-color:#637E76;
+	color: gb(30, 30, 30, 1.0);
+	font-family: avenir next condensed;
+	font-size: 17px;
+}
+
+h1 {
+	color: rgb(214, 218, 200);
+	text-align: center;
+	font-size: 32px;
+	font-family: "Barlow Condensed", sans-serif;
+  	font-weight: 700;
+  	font-style: normal;
+}	
+
+h2 {
+	color: rgb(214, 218, 200);
+	font-family: "Barlow Condensed", sans-serif;
+  	font-weight: 600;
+  	font-style: normal;
+  	font-size: 25px;
+}	
+
+a {
+	text-decoration: none;
+	color : #EFBC9B;
+	font-family: "Barlow Condensed", sans-serif;
+  	font-weight: 400;
+  	font-style: italic
+}
+
+a:hover {
+	color : #F5CCA0;
+}
+
+strong {
+	font-weight: 600;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}	
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+.card-green {
+	padding: 20px;
+	margin: 30px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+	text-align: center;
+	box-align: center;
+	background-color: #9CAFAA;
+	border-radius: 4px;
+}
+
+.img-circle {
+	border-radius: 50%;
+	box-shadow: 5px 5px 3px grey;
+}
+
+.btn-orange {
+	background-color: #EFBC9B;
+	color : white;
+	padding: 10px 15px;
+	border-radius: 4px;
+}
+
+.btn-orange:hover {
+	background-color: #F5CCA0;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}	
+.list-inline li {
+	display : inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 40px ;
+}
+
+/* Custom design with id */
+
+#list-left {
+	text-align: left;
+}
+
+#introduction p {
+	margin-bottom: 30px;
+}
+
+
